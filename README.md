@@ -5,6 +5,8 @@ Robota engelleri öğretmeyi ve öğrenme tamamlandıktan sonra hedefe engellere
 
 Q Learning algoritması, ödül - ceza prensibini benimsemiştir.
 
+Kullanıcının gireceği değerlere bağlı başlangıç-hedef noktaları belirlendikten sonra alanın %30'unu kapsayan engeller random olarak atanacaktır. Bu nedenle proje her çalıştırıldığında engellerin konumu farklı olarak gelecek ve öğrenme yeniden başlayacaktır.
+
 Projede robota engele çarpma cezası olarak -30 puan, her adımın cezası -0.3 puan ve hedefe ulaşmanın ödülü +100 puan olarak belirlenmiştir.
 
 Robot her engele çarptığında ya da hedefe ulaştığında başlangıç noktasına geri dönecektir.
